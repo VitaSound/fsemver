@@ -1,4 +1,5 @@
 build/
+.fcov/
 forth-packages/
 *.swp
 *.swo

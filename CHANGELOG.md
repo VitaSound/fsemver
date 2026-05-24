@@ -5,6 +5,15 @@ All notable changes to fsemver are documented here.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and
 this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.1.1] - 2026-05-24
+
+### Added
+- `package.4th`: declare `key-value fcov ~> 0.3` so this repo
+  participates in ecosystem-wide coverage collection. fsemver hits
+  100 % definition coverage (12/12) on `fcov run fmix test` — the
+  reference baseline for the rest of the family.
+- `.gitignore`: ignore `.fcov/` runtime artefacts.
+
 ## [0.1.0] - 2026-05-24
 
 Initial extraction. Previously the same algorithm lived inline inside
