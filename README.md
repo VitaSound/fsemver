@@ -1,5 +1,7 @@
 # fsemver
 
+[![Cov](https://img.shields.io/badge/Cov-100%25-brightgreen.svg)](https://github.com/VitaSound/fsemver)
+
 **Semver requirement parser + matcher for Forth.** Hex/Elixir-style
 operators: `~>`, `>=`, `==`, `>`, `<`, `<=`, and bare `X.Y.Z`. One file,
 one dependency for tests (ttester), zero runtime dependencies.
