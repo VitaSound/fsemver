@@ -1,0 +1,12 @@
+---
+description: VitaSound Forth — use fmcp MCP server vitasound-forth
+alwaysApply: true
+---
+
+Prefer MCP **vitasound-forth** (fmcp stdio bridge): `fmix_packages_get`, `fmix_test`, `flint_lint`, `fcov_run`, `fcov_report`.
+Pass `project_root` as the absolute path to this repo. Do not run equivalent shell commands when MCP tools exist.
+
+**Before any git commit:** run tests, then lint, then coverage — `fmix_test` → `flint_lint` → `fcov_run` (+ `fcov_report`). Review flint `[WARN]` output; do not commit new duplicate definitions in project code.
+
+Call MCP tools one at a time; use `mcp_ping` between heavy batch operations.
+See AGENTS.md (Before commit section) and https://github.com/VitaSound/fmcp/blob/main/AGENTS.md for details.

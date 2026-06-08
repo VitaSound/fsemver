@@ -8,10 +8,11 @@ forth-package
     key-value description Semver requirement parser and matcher (Hex/Elixir-style ~> plus >= == > < <=) for Forth tooling
     key-value license COPL
     key-value main fsemver.4th
+    key-value flint ~> 0.2
     key-value fcov ~> 0.3
     key-list tags semver
     key-list tags version-requirement
     key-list tags pinning
     key-list tags gforth
-    key-list dependencies ttester git https://github.com/VitaSound/ttester tag 1.2.0
+    key-list dependencies ttester git https://github.com/VitaSound/ttester tag 1.2.1
 end-forth-package

@@ -11,7 +11,7 @@
 \ or directly:
 \   gforth tests/fsemver_test.4th
 
-require ../forth-packages/ttester/1.2.0/ttester.4th
+require ../forth-packages/ttester/1.2.1/ttester.4th
 require ../fsemver.4th
 
 0 #ERRORS !
