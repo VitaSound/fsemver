@@ -141,6 +141,11 @@ every operator, req-matches? truth-table for every operator.
 
 See [README.ru.md](README.ru.md).
 
+## VitaSound ecosystem
+
+- [feco](https://github.com/VitaSound/feco) — catalog of the Forth toolchain: versions, coverage, bulk clone and install
+- [MIT](https://github.com/VitaSound/MIT) — engineering methodology: task decomposition and hardware/software stack levels
+
 ## License
 
 [COPL](LICENSE) — Communist Public License. Use freely, share with
